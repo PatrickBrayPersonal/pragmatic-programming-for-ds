@@ -8,42 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d1390d828494cfa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "228cc570786f92f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Expert_Series_Presentation.md",
-                "mode": "source",
-                "source": false
+                "file": "KANBAN.md"
               }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "cd0fa6f57838ba33",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1bdb21d41ae9fc7c",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
             }
           }
         ]
@@ -96,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6330c5358aba77f4",
@@ -113,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Expert_Series_Presentation.md",
+                "file": "KANBAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Expert_Series_Presentation.md",
+                "file": "KANBAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Expert_Series_Presentation.md"
+                "file": "KANBAN.md"
               }
             }
           }
@@ -176,8 +146,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1bdb21d41ae9fc7c",
+  "active": "228cc570786f92f3",
   "lastOpenFiles": [
+    "Expert Series Presentation.md",
+    "KANBAN.md",
+    "code/cereal.csv",
+    "code",
+    "artifacts/book_cover.jpg",
+    "artifacts/book_cover.jpg.crdownload",
+    "artifacts",
+    "README.md",
+    "ChatGPT Version.md",
+    "Untitled.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/_style.css",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/blackboard.png",
@@ -189,22 +169,14 @@
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-red.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-yellow.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/chalk-blue.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/chalk-green.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img",
     "export/Expert_Series_Presentation/plugin/chalkboard/plugin (copy).js",
     "export/Expert_Series_Presentation/plugin/chalkboard/style.css",
     "export/Expert_Series_Presentation/plugin/chalkboard/plugin.js",
     "export/Expert_Series_Presentation/plugin/chalkboard",
-    "export/Expert_Series_Presentation/plugin/chart/plugin.js",
-    "export/Expert_Series_Presentation/plugin/chart/chart.min.js",
     "export/Expert_Series_Presentation/plugin/chart/README.md",
-    "export/Expert_Series_Presentation/plugin/chart",
     "export/Expert_Series_Presentation/plugin/customcontrols/README.md",
-    "export/Expert_Series_Presentation/plugin/customcontrols/style.css",
     "export/Expert_Series_Presentation/plugin/menu/CONTRIBUTING.md",
-    "export/Expert_Series_Presentation/plugin/menu/README.md",
-    "Untitled.md",
-    "Expert_Series_Presentation.md",
-    "README.md"
+    "export/Expert_Series_Presentation/plugin/menu/README.md"
   ]
 }
