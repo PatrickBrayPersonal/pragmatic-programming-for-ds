@@ -176,11 +176,35 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "228cc570786f92f3",
+  "active": "1bdb21d41ae9fc7c",
   "lastOpenFiles": [
+    "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
+    "export/Expert_Series_Presentation/plugin/chalkboard/_style.css",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/blackboard.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-black.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-blue.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-green.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-orange.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-purple.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-red.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-yellow.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/chalk-blue.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img/chalk-green.png",
+    "export/Expert_Series_Presentation/plugin/chalkboard/img",
+    "export/Expert_Series_Presentation/plugin/chalkboard/plugin (copy).js",
+    "export/Expert_Series_Presentation/plugin/chalkboard/style.css",
+    "export/Expert_Series_Presentation/plugin/chalkboard/plugin.js",
+    "export/Expert_Series_Presentation/plugin/chalkboard",
+    "export/Expert_Series_Presentation/plugin/chart/plugin.js",
+    "export/Expert_Series_Presentation/plugin/chart/chart.min.js",
+    "export/Expert_Series_Presentation/plugin/chart/README.md",
+    "export/Expert_Series_Presentation/plugin/chart",
+    "export/Expert_Series_Presentation/plugin/customcontrols/README.md",
+    "export/Expert_Series_Presentation/plugin/customcontrols/style.css",
+    "export/Expert_Series_Presentation/plugin/menu/CONTRIBUTING.md",
+    "export/Expert_Series_Presentation/plugin/menu/README.md",
     "Untitled.md",
     "Expert_Series_Presentation.md",
-    "docs",
     "README.md"
   ]
 }
