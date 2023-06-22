@@ -4,11 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b82f8fc97e2f95e2",
+        "id": "78edc5af7e8bf602",
         "type": "tabs",
+        "dimension": 54.11020776874436,
         "children": [
           {
-            "id": "50ad85eb6f10ebe0",
+            "id": "228cc570786f92f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -17,6 +18,21 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "8d71f6cb7f4c9665",
+        "type": "tabs",
+        "dimension": 45.88979223125564,
+        "children": [
+          {
+            "id": "e89a06ed371449f9",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {}
             }
           }
         ]
@@ -66,7 +82,7 @@
             }
           },
           {
-            "id": "1ad442d7fc3c72f7",
+            "id": "4cc790c8e260e36c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -156,39 +172,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "50ad85eb6f10ebe0",
+  "active": "228cc570786f92f3",
   "lastOpenFiles": [
-    "SOLID.md",
-    "README.md",
-    "2023-05-29.md",
-    "Expert Series Presentation.md",
+    "artifacts/highline.png",
+    "artifacts/Pasted image 20230622163110.png",
     "Presentation Archive.md",
     "KANBAN.md",
-    "sources/TPP.md",
-    "artifacts/wires.jpg",
-    "artifacts/wires.jpg.crdownload",
-    "artifacts/code_quality_graph.png.png",
-    "code/requirements.txt",
+    "Expert Series Presentation.md",
+    "2023-06-22.md",
+    "code/decoupling_example.py",
+    "2023-05-29.md",
+    "artifacts/Pasted image 20230622160221.png",
     "code/README.md",
-    "code/Makefile",
-    "code/make.py",
-    "code/setup.py",
-    "code/src/ui/__pycache__/preview/Tensorflow",
-    "code/src/ui/__pycache__/preview/Pytorch",
-    "code/src/ui/__pycache__/preview/Plotly",
-    "code/src/ui/__pycache__/preview/PIL",
-    "code/src/ui/__pycache__/preview/OpenCV",
+    "sources/TPP.md",
+    "sources/Pragmatic_ML_Sample.pdf",
+    "sources",
+    "code/src/data/__pycache__/write.cpython-39.pyc",
+    "code/src/data/__pycache__/transform.cpython-39.pyc",
+    "code/src/data/__pycache__/__init__.cpython-39.pyc",
+    "code/src/data/__pycache__/read.cpython-39.pyc",
+    "code/src/ui/streamlit.py",
+    "code/src/ui/__init__.py",
+    "code/src/__pycache__/__init__.cpython-39.pyc",
+    "artifacts/wires.jpg",
     "artifacts/orthogonal-vector-271x300.jpg",
-    "artifacts/book_cover.jpg",
+    "artifacts/code_quality_graph.png.png",
     "artifacts/broken_window.jpg",
+    "SOLID.md",
+    "artifacts/book_cover.jpg",
+    "README.md",
     "ChatGPT Version.md",
-    "Sources/TPP.md",
+    "Untitled.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/blackboard.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-black.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-blue.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-green.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-orange.png",
     "export/Expert_Series_Presentation/plugin/chart/README.md",
     "export/Expert_Series_Presentation/plugin/customcontrols/README.md",
     "export/Expert_Series_Presentation/plugin/menu/CONTRIBUTING.md",

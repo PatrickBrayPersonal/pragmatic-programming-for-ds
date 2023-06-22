@@ -6,6 +6,9 @@
 ---
 ## BLUF
 - Data Scientists can deliver more value to clients by embracing pragmatic programming principles!
+	1. Don't Repeat Yourself (DRY)
+	2. Decoupling
+	3. Don't outrun your headlights
 
 ---
 ## Why Should I Care?
@@ -68,12 +71,25 @@ you may not be DRY
 
 
 ---
-### Decoupling - Orthogonality
-- why is maintainability, updates easier
+### Decoupling - Example
+![[Pasted image 20230622160221.png]]
+
+
+
+
 
 ---
-### Decoupling - Intuitive Example
-%%Example of a restaurant%%
+### Decoupling - Example
+
+![[Pasted image 20230622163110.png]]
+
+
+
+
+---
+### Decoupling - Example
+
+![[highline.png]]
 
 ---
 ### Decoupling - DS Example
@@ -92,9 +108,13 @@ you may not be DRY
 ## Conclusion
 Invest in your coding skills because it will pay off big time.
 
+>Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. - Kernhigan's Law
+
 ---
 ### Tools Referenced
+*All python, all open source*
 - [MLFlow](https://mlflow.org/docs/latest/index.html) - Log experiments, version, and serve models
+- Hydra - Config and experiment management
 - [VSCode Debugger](https://code.visualstudio.com/docs/editor/debugging)
 - [VSCode Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
 - [Sphinx](https://www.sphinx-doc.org/en/master/)
@@ -117,6 +137,7 @@ Invest in your coding skills because it will pay off big time.
 	- [Free Summary](https://github.com/HugoMatilla/The-Pragmatic-Programmer)
 - [Pragmatic Programmer for ML](https://www.taylorfrancis.com/books/mono/10.1201/9780429292835/pragmatic-programmer-machine-learning-marco-scutari-mauro-malvestio)  
 - [Scaling ML Adoption: Pragmatic Approach](https://www.youtube.com/watch?v=AUvAdkDvvto)  
+- [Write decoupled code — Good research code](https://goodresearch.dev/decoupled.html)
 - [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
 - [Debugging: The 9 Indespensable Rules](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578)
 	- [Free Summary](https://inspirezone.tech/9-indispensable-rules-for-debugging-software-and-hardware/)
