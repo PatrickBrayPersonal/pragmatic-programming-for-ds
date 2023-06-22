@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "78edc5af7e8bf602",
+        "id": "b82f8fc97e2f95e2",
         "type": "tabs",
         "children": [
           {
-            "id": "228cc570786f92f3",
+            "id": "50ad85eb6f10ebe0",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "KANBAN.md"
+                "file": "Expert Series Presentation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -62,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "1ad442d7fc3c72f7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -83,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "KANBAN.md",
+                "file": "Expert Series Presentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "KANBAN.md",
+                "file": "Expert Series Presentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "KANBAN.md"
+                "file": "Expert Series Presentation.md"
               }
             }
           }
@@ -146,34 +156,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "228cc570786f92f3",
+  "active": "50ad85eb6f10ebe0",
   "lastOpenFiles": [
-    "Expert Series Presentation.md",
-    "KANBAN.md",
-    "code/cereal.csv",
-    "code",
-    "artifacts/book_cover.jpg",
-    "artifacts/book_cover.jpg.crdownload",
-    "artifacts",
+    "SOLID.md",
     "README.md",
+    "2023-05-29.md",
+    "Expert Series Presentation.md",
+    "Presentation Archive.md",
+    "KANBAN.md",
+    "sources/TPP.md",
+    "artifacts/wires.jpg",
+    "artifacts/wires.jpg.crdownload",
+    "artifacts/code_quality_graph.png.png",
+    "code/requirements.txt",
+    "code/README.md",
+    "code/Makefile",
+    "code/make.py",
+    "code/setup.py",
+    "code/src/ui/__pycache__/preview/Tensorflow",
+    "code/src/ui/__pycache__/preview/Pytorch",
+    "code/src/ui/__pycache__/preview/Plotly",
+    "code/src/ui/__pycache__/preview/PIL",
+    "code/src/ui/__pycache__/preview/OpenCV",
+    "artifacts/orthogonal-vector-271x300.jpg",
+    "artifacts/book_cover.jpg",
+    "artifacts/broken_window.jpg",
     "ChatGPT Version.md",
-    "Untitled.md",
+    "Sources/TPP.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
-    "export/Expert_Series_Presentation/plugin/chalkboard/_style.css",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/blackboard.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-black.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-blue.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-green.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-orange.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-purple.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-red.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-yellow.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/chalk-blue.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img",
-    "export/Expert_Series_Presentation/plugin/chalkboard/plugin (copy).js",
-    "export/Expert_Series_Presentation/plugin/chalkboard/style.css",
-    "export/Expert_Series_Presentation/plugin/chalkboard/plugin.js",
-    "export/Expert_Series_Presentation/plugin/chalkboard",
     "export/Expert_Series_Presentation/plugin/chart/README.md",
     "export/Expert_Series_Presentation/plugin/customcontrols/README.md",
     "export/Expert_Series_Presentation/plugin/menu/CONTRIBUTING.md",

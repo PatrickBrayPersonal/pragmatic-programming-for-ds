@@ -1,0 +1,12 @@
+# local package
+-e .
+
+# external requirements
+Sphinx
+coverage
+flake8
+isort
+black
+mlflow
+fire
+python-dotenv>=0.5.1

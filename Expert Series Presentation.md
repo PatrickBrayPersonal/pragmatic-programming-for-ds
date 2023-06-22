@@ -1,86 +1,114 @@
 
 # Pragmatic Programming for Data Scientists
-Tips to deliver better analytics solutions faster
+*Tips to deliver better analytics solutions faster*
 ![[book_cover.jpg]]
 
-
-%%Have the code embedded in this presentation be REAL code that works.%%
+---
+## BLUF
+- Data Scientists can deliver more value to clients by embracing pragmatic programming principles!
 
 ---
-
-## Why Should I care?  
-- Bottlenecks to analytics value
-	- problem recognition / definition
-	- data quality / accessibility
-	- **engineering**
+## Why Should I Care?
+As a data scientist you might have great ideas. If you can't implement them reliably in your code, they will never make an impact!
+ ![Code Quality](artifacts/code_quality_graph.png.png)
 
 ---
+## Why Should I Care?
 
-# Disclaimers
+When Data Scientists **ignore** programming principles they are more likely to:
+1. make mistakes %%You need to know what your code does!%%
+2) miss deadlines  %%90 percent of your dev time will be spent doing non-DS stuff%%
+3) experience stress %%Diving back to a mistake you made months ago%%
 
-- I do not follow these standards all the time
-	- Don't call me a hypocrite
-- Free for comments **between each slide**
-	- Discuss!
-	- Object!
-- We do **not** need to finish my presentation
-
----
-### 18.-Debugging  
-- show python debugger
-- pycharm "If you have the premium version"
-
-
+Data Scientists who **embrace** programming principles deliver projects with greater:
+1) maintainability %%You can make future changes faster%%
+2) reliability %%your code is more likely to do what you say it does. It will also be clear to other DS what your code does%%
+3) learnability %%If you get promoted, moved to another project, expand the team. Your code can be used by someone else!%%
 
 ---
-### 26.-Decoupling and the Law of Demeter  
-if your sql query changes a column name, does this break your program?  
+## Disclaimers
+1. Speak up! %%These are not secrets. Everyone knows this stuff and has valuable perspective. I don't need to finish all my slides%%
+	- We do **NOT** need to finish my slides
+2. This is relevant for everyone %%This helps anyone who writes code write it better. but its also good for managers to encourage their underlings to read up. and have a shared language around code quality%%
+3. Cut me some slack %%I don't follow my advice here all the time. But I'm working on it!%%
+4. Dive deeper %%Or some equivalent, if you want the full picture%%
 
 ---
-### 31. Programming By Coincidence  
-Don't  
-*Walk through bit by bit of what people might do*  
-confirm your suspicions  
-come up with a good pandas example  
+### Software Entropy
+*AKA: Technical Debt*
+%%Has anyone ever looked at a codebase and felt like their looking at something like this?%%
+<html>
+<img src="artifacts/wires.jpg"  width="600" height="300">
+</html>
+![Wires](artifacts/wires.jpg)
 
-[TDS - Unit Testing for Data Scientists](https://towardsdatascience.com/unit-testing-for-data-scientists-dc5e0cd397fb)
+[[TPP#2.-Software Entropy]]
+[[TPP#33.-Refactoring]]
+%%Reference back to the flattening of the curve in that graph%%
+%%technical debt makes it harder to deliver, pivot, generate new ideas%%
+%%An ounce of prevention is worth a pound of cure%%
 
 ---
-### 32. Algorithm Speed  
-#### Profiling (Performance)  
-CProfile  
+### Software Entropy
+%%This anecdote reflects my views on software, NOT LAW ENFORCEMENT%%
+>One **broken window**, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Serious structural damage begins. the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.
+
 
 ---
-### 41. Pragmatic Teams  
-- No Broken Windows  
-- black?  
-- Boiled Frogs  
-- Communicate  
-Link smart Brevity  
-- DRY  
-- Orthogonality  
+### Don't Repeat Yourself (DRY)
+[[TPP#7.-The Evils of Duplication]]
+*Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.*
+%%QUESTION: 
+Has anyone ever made a simple change to the code but needed to change it like 100 times throughout the codebase??
+you may not be DRY
+%%
+
 ---
-### 33. Refactoring  
-- don't build a bridge, cultivate a garden.  
+### DRY Example
+
+
 ---
-### 42. Ubiquitous Automation  
-black?  
-pre-commit?  
-isort?  
-sphinx
+### Decoupling - Orthogonality
+- why is maintainability, updates easier
+
+---
+### Decoupling - Intuitive Example
+%%Example of a restaurant%%
+
+---
+### Decoupling - DS Example
+%%Changing a column name%%
+
+---
+### Programming by Coincidence
+- just because something *looks right* doesn't mean it is
+- why is correctness, stability
+
+---
+## Programming by Coincidence Example
+
+
+---
+## Conclusion
+Invest in your coding skills because it will pay off big time.
 
 ---
 ### Tools Referenced
-- MLFlow - Log experiments, version, and serve models  
-- VSCode Debugger  
-- VSCode Testing Suite  
-- Sphinx - automate your API documentation
-- cProfile - measure what is slowing your code down  
-- Fire - Low-code CLI  
-- dotenv - Load environment variables easily  
-- black - automate code formatting (PEP-8)  
-- isort - automate import sorting  
-- Reader
+- [MLFlow](https://mlflow.org/docs/latest/index.html) - Log experiments, version, and serve models
+- [VSCode Debugger](https://code.visualstudio.com/docs/editor/debugging)
+- [VSCode Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
+- [Sphinx](https://www.sphinx-doc.org/en/master/)
+	- automate your API documentation
+- [cProfile](https://docs.csc.fi/computing/cProfile/)
+	- measure what is slowing your code  
+- [Fire](https://github.com/google/python-fire)
+	- Low-code CLI  
+- [dotenv](https://github.com/theskumar/python-dotenv)
+	- Load environment variables easily  
+- [black](https://pypi.org/project/black/)
+	- automate code formatting (PEP-8)  
+- [isort](https://pypi.org/project/isort/)
+	- automate import sorting  
 
 ---
 
@@ -92,4 +120,6 @@ sphinx
 - [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
 - [Debugging: The 9 Indespensable Rules](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578)
 	- [Free Summary](https://inspirezone.tech/9-indispensable-rules-for-debugging-software-and-hardware/)
+- [How Principled Coders Outperform the Competition](https://www.youtube.com/watch?v=q1qKv5TBaOA])
+
 ---

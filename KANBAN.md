@@ -6,7 +6,6 @@ kanban-plugin: basic
 
 ## Backlog
 
-- [ ] Decide on code examples for cereal dataset
 - [ ] Include DRY
 
 
