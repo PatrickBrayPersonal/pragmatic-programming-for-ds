@@ -15,18 +15,7 @@
 As a data scientist you might have great ideas. If you can't implement them reliably in your code, they will never make an impact!
  ![Code Quality](artifacts/code_quality_graph.png.png)
 
----
-## Why Should I Care?
 
-When Data Scientists **ignore** programming principles they are more likely to:
-1. make mistakes %%You need to know what your code does!%%
-2) miss deadlines  %%90 percent of your dev time will be spent doing non-DS stuff%%
-3) experience stress %%Diving back to a mistake you made months ago%%
-
-Data Scientists who **embrace** programming principles deliver projects with greater:
-1) maintainability %%You can make future changes faster%%
-2) reliability %%your code is more likely to do what you say it does. It will also be clear to other DS what your code does%%
-3) learnability %%If you get promoted, moved to another project, expand the team. Your code can be used by someone else!%%
 
 ---
 ## Disclaimers
@@ -37,22 +26,22 @@ Data Scientists who **embrace** programming principles deliver projects with gre
 4. Dive deeper %%Or some equivalent, if you want the full picture%%
 
 ---
-### Software Entropy
-*AKA: Technical Debt*
-%%Has anyone ever looked at a codebase and felt like their looking at something like this?%%
+### Why Should I Care? - Software Entropy
+%%*AKA: Technical Debt*%%
+%%Has anyone ever looked at a codebase and felt like they're looking at something like this?%%
 <html>
 <img src="artifacts/wires.jpg"  width="600" height="300">
 </html>
 ![Wires](artifacts/wires.jpg)
 
-[[TPP#2.-Software Entropy]]
-[[TPP#33.-Refactoring]]
+%%[[TPP#2.-Software Entropy]]
+[[TPP#33.-Refactoring]]%%
 %%Reference back to the flattening of the curve in that graph%%
 %%technical debt makes it harder to deliver, pivot, generate new ideas%%
 %%An ounce of prevention is worth a pound of cure%%
 
 ---
-### Software Entropy
+### Software Entropy and Broken Windows
 %%This anecdote reflects my views on software, NOT LAW ENFORCEMENT%%
 >One **broken window**, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Serious structural damage begins. the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.
 
@@ -68,6 +57,12 @@ you may not be DRY
 
 ---
 ### DRY Example
+
+
+---
+### Decoupling
+
+*Definition*
 
 
 ---
@@ -143,4 +138,16 @@ Invest in your coding skills because it will pay off big time.
 	- [Free Summary](https://inspirezone.tech/9-indispensable-rules-for-debugging-software-and-hardware/)
 - [How Principled Coders Outperform the Competition](https://www.youtube.com/watch?v=q1qKv5TBaOA])
 
+
 ---
+## Why Should I Care?
+
+When Data Scientists **ignore** programming principles they are more likely to:
+1. make mistakes %%You need to know what your code does!%%
+2) miss deadlines  %%90 percent of your dev time will be spent doing non-DS stuff%%
+3) experience stress %%Diving back to a mistake you made months ago%%
+
+Data Scientists who **embrace** programming principles deliver projects with greater:
+1) maintainability %%You can make future changes faster%%
+2) reliability %%your code is more likely to do what you say it does. It will also be clear to other DS what your code does%%
+3) learnability %%If you get promoted, moved to another project, expand the team. Your code can be used by someone else!%%

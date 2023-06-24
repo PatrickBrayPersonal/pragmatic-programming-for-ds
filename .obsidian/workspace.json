@@ -6,7 +6,7 @@
       {
         "id": "78edc5af7e8bf602",
         "type": "tabs",
-        "dimension": 54.11020776874436,
+        "dimension": 50,
         "children": [
           {
             "id": "228cc570786f92f3",
@@ -23,12 +23,12 @@
         ]
       },
       {
-        "id": "8d71f6cb7f4c9665",
+        "id": "ede7ec544644a7e4",
         "type": "tabs",
-        "dimension": 45.88979223125564,
+        "dimension": 50,
         "children": [
           {
-            "id": "e89a06ed371449f9",
+            "id": "636dc3aa13b66753",
             "type": "leaf",
             "state": {
               "type": "reveal-preview-view",
