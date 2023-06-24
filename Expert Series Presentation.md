@@ -8,7 +8,7 @@
 - Data Scientists can deliver more value to clients by embracing pragmatic programming principles!
 	1. Don't Repeat Yourself (DRY)
 	2. Decoupling
-	3. Don't outrun your headlights
+	3. Separation of Concerns
 
 ---
 ## Why Should I Care?
@@ -45,7 +45,6 @@ As a data scientist you might have great ideas. If you can't implement them reli
 %%This anecdote reflects my views on software, NOT LAW ENFORCEMENT%%
 >One **broken window**, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Serious structural damage begins. the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.
 
-
 ---
 ### Don't Repeat Yourself (DRY)
 [[TPP#7.-The Evils of Duplication]]
@@ -60,6 +59,18 @@ you may not be DRY
 
 
 ---
+### Separation of Concerns?
+
+
+---
+### Configuration
+%%Metaprogramming%%
+%%Dependency inversion principle%%
+%%Details should depend on abstractions, abstractions should not depend on details%%
+%%Show an example of using a config file%%
+
+
+---
 ### Decoupling
 
 *Definition*
@@ -67,19 +78,17 @@ you may not be DRY
 
 ---
 ### Decoupling - Example
+![[Pasted image 20230623212618.png]]
+
+---
+### Decoupling - Example
 ![[Pasted image 20230622160221.png]]
-
-
 
 
 
 ---
 ### Decoupling - Example
-
 ![[Pasted image 20230622163110.png]]
-
-
-
 
 ---
 ### Decoupling - Example

@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78edc5af7e8bf602",
+        "id": "b82f8fc97e2f95e2",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "228cc570786f92f3",
+            "id": "50ad85eb6f10ebe0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ede7ec544644a7e4",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "636dc3aa13b66753",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
             }
           }
         ]
@@ -82,7 +66,7 @@
             }
           },
           {
-            "id": "4cc790c8e260e36c",
+            "id": "1ad442d7fc3c72f7",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -172,41 +156,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "228cc570786f92f3",
+  "active": "50ad85eb6f10ebe0",
   "lastOpenFiles": [
+    "Pasted image 20230623212618.png",
+    "sources/TPP.md",
+    "Expert Series Presentation.md",
+    "code/decoupling_example.py",
     "artifacts/highline.png",
     "artifacts/Pasted image 20230622163110.png",
+    "artifacts/Pasted image 20230622160221.png",
+    "2023-06-22.md",
+    "SOLID.md",
+    "README.md",
+    "2023-05-29.md",
     "Presentation Archive.md",
     "KANBAN.md",
-    "Expert Series Presentation.md",
-    "2023-06-22.md",
-    "code/decoupling_example.py",
-    "2023-05-29.md",
-    "artifacts/Pasted image 20230622160221.png",
-    "code/README.md",
-    "sources/TPP.md",
-    "sources/Pragmatic_ML_Sample.pdf",
-    "sources",
-    "code/src/data/__pycache__/write.cpython-39.pyc",
-    "code/src/data/__pycache__/transform.cpython-39.pyc",
-    "code/src/data/__pycache__/__init__.cpython-39.pyc",
-    "code/src/data/__pycache__/read.cpython-39.pyc",
-    "code/src/ui/streamlit.py",
-    "code/src/ui/__init__.py",
-    "code/src/__pycache__/__init__.cpython-39.pyc",
     "artifacts/wires.jpg",
-    "artifacts/orthogonal-vector-271x300.jpg",
+    "artifacts/wires.jpg.crdownload",
     "artifacts/code_quality_graph.png.png",
-    "artifacts/broken_window.jpg",
-    "SOLID.md",
+    "code/requirements.txt",
+    "code/README.md",
+    "code/Makefile",
+    "code/make.py",
+    "code/setup.py",
+    "code/src/ui/__pycache__/preview/Tensorflow",
+    "code/src/ui/__pycache__/preview/Pytorch",
+    "code/src/ui/__pycache__/preview/Plotly",
+    "code/src/ui/__pycache__/preview/PIL",
+    "artifacts/orthogonal-vector-271x300.jpg",
     "artifacts/book_cover.jpg",
-    "README.md",
+    "artifacts/broken_window.jpg",
     "ChatGPT Version.md",
-    "Untitled.md",
+    "Sources/TPP.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/blackboard.png",
     "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-black.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-blue.png",
     "export/Expert_Series_Presentation/plugin/chart/README.md",
     "export/Expert_Series_Presentation/plugin/customcontrols/README.md",
     "export/Expert_Series_Presentation/plugin/menu/CONTRIBUTING.md",
