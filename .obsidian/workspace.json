@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6330c5358aba77f4",
@@ -158,6 +159,8 @@
   },
   "active": "50ad85eb6f10ebe0",
   "lastOpenFiles": [
+    "Pasted image 20230623224032.png",
+    "Pasted image 20230623223952.png",
     "Pasted image 20230623212618.png",
     "sources/TPP.md",
     "Expert Series Presentation.md",
@@ -189,8 +192,6 @@
     "ChatGPT Version.md",
     "Sources/TPP.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/blackboard.png",
-    "export/Expert_Series_Presentation/plugin/chalkboard/img/boardmarker-black.png",
     "export/Expert_Series_Presentation/plugin/chart/README.md",
     "export/Expert_Series_Presentation/plugin/customcontrols/README.md",
     "export/Expert_Series_Presentation/plugin/menu/CONTRIBUTING.md",

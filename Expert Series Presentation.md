@@ -7,8 +7,8 @@
 ## BLUF
 - Data Scientists can deliver more value to clients by embracing pragmatic programming principles!
 	1. Don't Repeat Yourself (DRY)
-	2. Decoupling
-	3. Separation of Concerns
+	2. Metaprogramming
+	3. Decoupling
 
 ---
 ## Why Should I Care?
@@ -56,19 +56,19 @@ you may not be DRY
 
 ---
 ### DRY Example
-
+%%See Notebook%%
 
 ---
 ### Separation of Concerns?
 
 
 ---
-### Configuration
-%%Metaprogramming%%
-%%Dependency inversion principle%%
-%%Details should depend on abstractions, abstractions should not depend on details%%
-%%Show an example of using a config file%%
+### Metaprogramming
 
+>Details should depend on abstractions, abstractions should not depend on details
+>- Dependency Inversion Principle
+
+%%See notebook%%
 
 ---
 ### Decoupling
@@ -96,21 +96,17 @@ you may not be DRY
 ![[highline.png]]
 
 ---
-### Decoupling - DS Example
-%%Changing a column name%%
+## What are we shooting for?
+![[Pasted image 20230623223952.png]]
+![[Pasted image 20230623224032.png]]
 
 ---
-### Programming by Coincidence
-- just because something *looks right* doesn't mean it is
-- why is correctness, stability
-
----
-## Programming by Coincidence Example
-
-
----
-## Conclusion
+## Thank you for coming to my TED talk
 Invest in your coding skills because it will pay off big time.
+### Concepts Covered
+1. Don't Repeat Yourself (DRY)
+2. Metaprogramming
+3. Decoupling
 
 >Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. - Kernhigan's Law
 
@@ -118,7 +114,7 @@ Invest in your coding skills because it will pay off big time.
 ### Tools Referenced
 *All python, all open source*
 - [MLFlow](https://mlflow.org/docs/latest/index.html) - Log experiments, version, and serve models
-- Hydra - Config and experiment management
+- [Hydra](https://hydra.cc/docs/intro/) - Config and experiment management
 - [VSCode Debugger](https://code.visualstudio.com/docs/editor/debugging)
 - [VSCode Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
 - [Sphinx](https://www.sphinx-doc.org/en/master/)
