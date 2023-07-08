@@ -21,9 +21,12 @@ As a data scientist you might have great ideas. If you can't implement them reli
 ## Disclaimers
 1. Speak up! %%These are not secrets. Everyone knows this stuff and has valuable perspective. I don't need to finish all my slides%%
 	- We do **NOT** need to finish my slides
-2. This is relevant for everyone %%This helps anyone who writes code write it better. but its also good for managers to encourage their underlings to read up. and have a shared language around code quality%%
-3. Cut me some slack %%I don't follow my advice here all the time. But I'm working on it!%%
-4. Dive deeper %%Or some equivalent, if you want the full picture%%
+2. Think about your own projects
+	- data scientists write code
+	- managers review code
+	- clients request code
+	%%This helps anyone who writes code write it better. but its also good for managers to encourage their underlings to read up. and have a shared language around code quality%%
+3. Dive deeper %%Or some equivalent, if you want the full picture%%
 
 ---
 ### Why Should I Care? - Software Entropy

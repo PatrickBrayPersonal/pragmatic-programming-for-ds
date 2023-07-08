@@ -4,12 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "78edc5af7e8bf602",
+        "id": "23aaf46fedb2a3e5",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "228cc570786f92f3",
+            "id": "474961e2e22f71ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,21 +17,6 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ede7ec544644a7e4",
-        "type": "tabs",
-        "dimension": 50,
-        "children": [
-          {
-            "id": "636dc3aa13b66753",
-            "type": "leaf",
-            "state": {
-              "type": "reveal-preview-view",
-              "state": {}
             }
           }
         ]
@@ -93,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6330c5358aba77f4",
@@ -173,19 +156,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "228cc570786f92f3",
+  "active": "474961e2e22f71ba",
   "lastOpenFiles": [
-    "Pasted image 20230623224032.png",
-    "Pasted image 20230623223952.png",
-    "Pasted image 20230623212618.png",
+    "2023-06-22.md",
+    "2023-05-29.md",
+    "artifacts/Pasted image 20230623224032.png",
+    "artifacts/Pasted image 20230623223952.png",
+    "artifacts/Pasted image 20230623212618.png",
+    "Expert Series Presentation.md",
     "artifacts/highline.png",
     "artifacts/Pasted image 20230622163110.png",
     "Presentation Archive.md",
     "KANBAN.md",
-    "Expert Series Presentation.md",
-    "2023-06-22.md",
     "code/decoupling_example.py",
-    "2023-05-29.md",
     "artifacts/Pasted image 20230622160221.png",
     "code/README.md",
     "sources/TPP.md",
@@ -203,7 +186,6 @@
     "artifacts/code_quality_graph.png.png",
     "artifacts/broken_window.jpg",
     "SOLID.md",
-    "artifacts/book_cover.jpg",
     "README.md",
     "ChatGPT Version.md",
     "Untitled.md",
