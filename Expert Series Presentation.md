@@ -46,7 +46,7 @@ As a data scientist you might have great ideas. If you can't implement them reli
 %%this is the whole purpose of the presentation%%
 
 ---
-## Principles of Good Design
+### Principles of Good Design
 - Data Scientists can deliver more value to clients by embracing pragmatic programming principles!
 	1. Don't Repeat Yourself (DRY)
 	2. Metaprogramming
@@ -112,6 +112,19 @@ you may not be DRY
 ![[s-l1600.jpg]]
 ---
 ![[Macbook.jpeg]]
+
+---
+### What Now?
+1. Read
+	- see the *References* slide in this presentation for some helpful links
+	- this presentation is just the tip of the iceberg
+2. Explore
+	- Many libraries make effective program design easier
+	- see the *Recommended Tools* section for some of these
+3. Discuss
+	- Talk through with your team how you might improve your program design
+	- Establish a shared language
+
 ---
 ## Thank you for coming to my TED talk
 Invest in your coding skills because it will pay off big time.
@@ -122,43 +135,78 @@ Invest in your coding skills because it will pay off big time.
 
 >Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it. - Kernhigan's Law
 
+%%This is just the tip of the Icebe%%
+
 ---
-### Recommended Tools
+## Template Repository
+https://github.boozallencsn.com/Bray-Patrick/dsms-ml-template
+
+---
+## Recommended Tools
 *All python, all open source*
-- [MLFlow](https://mlflow.org/docs/latest/index.html) - Log experiments, version, and serve models
-- [Hydra](https://hydra.cc/docs/intro/) - Config and experiment management
-- [Invoke](https://www.pyinvoke.org/) - Python-based CLI subprocesses
-- [VSCode Debugger](https://code.visualstudio.com/docs/editor/debugging)
-- [VSCode Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
-- [Sphinx](https://www.sphinx-doc.org/en/master/)
-	- automate your API documentation
+
+#### Machine Learning
+- [hydra](https://hydra.cc/docs/intro/#introduction)
+	- Config and experimentation orchestration
+	- Lightweight alternative: [Python Fire](https://google.github.io/python-fire/guide/)
+- [mlflow](https://mlflow.org/docs/latest/what-is-mlflow.html)
+	- Experiment tracking and model versioning
+	- Subscription-based alternative:  [Weights & Biases](https://wandb.ai/site)
+#### Documentation
+- [pdoc](https://pdoc.dev/docs/pdoc.html#customizing-pdoc)
+	- Automatically builds API documentation
+		- see the example docs [here](https://pages.github.boozallencsn.com/Bray-Patrick/dsms-ml-template/your_package.html)
+	- More configurable alternative: [Sphinx](https://www.sphinx-doc.org/en/master/index.html)
+- [ghp-import](https://pypi.org/project/ghp-import/)
+	- Lightweight GitHub pages for documentation automation
+	- Heavier and more automated alternative: [Github Actions](https://github.com/features/actions)
+#### Formatting (PEP8)
+- [black](https://pypi.org/project/black/)
+	- automatically format code
+- [isort](https://pycqa.github.io/isort/)
+	- automatically sort imports
+- [flake8](https://flake8.pycqa.org/en/2.5.5/config.html)
+	- find linting issues not fixed by black
+#### Other
+- [invoke](https://www.pyinvoke.org/)
+	- manage command line workflows using python
+	- OS agnostic, unlike Makefile
+- [pytest](https://docs.pytest.org/en/7.3.x/)
+	- python test management framework
+	- More configurable alternative: [unittest](https://docs.python.org/3/library/unittest.html)
+- [poetry](https://python-poetry.org/)
+	- Dependency and environment management
+	- Classic alternative: [virtualenv](https://virtualenv.pypa.io/en/latest/)
+- [theskumar/python-dotenv](https://github.com/theskumar/python-dotenv)
+	- automatically read and access environment variables
+- [loguru](https://loguru.readthedocs.io/en/stable/overview.html#)
+	- easy logging, better api
 - [cProfile](https://docs.csc.fi/computing/cProfile/)
 	- measure what is slowing your code  
 - [dotenv](https://github.com/theskumar/python-dotenv)
 	- Load environment variables easily  
-- [black](https://pypi.org/project/black/)
-	- automate code formatting (PEP-8)  
-- [isort](https://pypi.org/project/isort/)
-	- automate import sorting
 
-
----
-### Template Repository
-
+### IDE Tools
+- [VSCode Debugger](https://code.visualstudio.com/docs/editor/debugging)
+- [VSCode Test Explorer UI](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-test-explorer)
 
 ---
 
 ### References  
+#### Books
 - [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
 	- [Free Summary](https://github.com/HugoMatilla/The-Pragmatic-Programmer)
-- [Pragmatic Programmer for ML](https://www.taylorfrancis.com/books/mono/10.1201/9780429292835/pragmatic-programmer-machine-learning-marco-scutari-mauro-malvestio)  
-- [Scaling ML Adoption: Pragmatic Approach](https://www.youtube.com/watch?v=AUvAdkDvvto)  
-- [Write decoupled code — Good research code](https://goodresearch.dev/decoupled.html)
-- [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+- [Pragmatic Programmer for ML](https://www.taylorfrancis.com/books/mono/10.1201/9780429292835/pragmatic-programmer-machine-learning-marco-scutari-mauro-malvestio)
 - [Debugging: The 9 Indespensable Rules](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578)
 	- [Free Summary](https://inspirezone.tech/9-indispensable-rules-for-debugging-software-and-hardware/)
-- [How Principled Coders Outperform the Competition](https://www.youtube.com/watch?v=q1qKv5TBaOA])
+- [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
+#### Articles 
+- [SOLID Principles Python](https://realpython.com/solid-principles-python/)
+- [Write decoupled code — Good research code](https://goodresearch.dev/decoupled.html)
 - [Separation of Concerns: the Simple Way](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
+#### YouTube
+- [Scaling ML Adoption: Pragmatic Approach](https://www.youtube.com/watch?v=AUvAdkDvvto)  
+- [How Principled Coders Outperform the Competition](https://www.youtube.com/watch?v=q1qKv5TBaOA])
 
 ---
 # ARCHIVE
