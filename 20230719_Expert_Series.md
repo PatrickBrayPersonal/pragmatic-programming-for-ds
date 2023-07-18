@@ -21,23 +21,6 @@ As a data scientist you might have great ideas. If you can't implement them reli
  ![Code Quality](artifacts/code_quality_graph.png.png)
 %%We don't typically have the luxury of dedicated software engineers on our projects, we're working on client facing solutions%%
 
-
----
-### Why Should I Care? - Software Entropy
-%%*AKA: Technical Debt*%%
-%%Has anyone ever looked at a codebase and felt like they're looking at something like this?%%
-<html>
-<img src="artifacts/wires.jpg"  width="600" height="300">
-</html>
-![Wires](artifacts/wires.jpg)
-
-%%[[TPP#2.-Software Entropy]]
-[[TPP#33.-Refactoring]]%%
-%%Reference back to the flattening of the curve in that graph%%
-%%technical debt makes it harder to deliver, pivot, generate new ideas%%
-%%An ounce of prevention is worth a pound of cure%%
-
-
 ---
 ### The Essence of Good Design
 
@@ -54,7 +37,6 @@ As a data scientist you might have great ideas. If you can't implement them reli
 *\*not comprehensive*
 ---
 ### Don't Repeat Yourself (DRY)
-[[TPP#7.-The Evils of Duplication]]
 *Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.*
 %%QUESTION: 
 Has anyone ever made a simple change to the code but needed to change it like 100 times throughout the codebase??
@@ -95,7 +77,7 @@ you may not be DRY
 ---
 ### Decoupling Actions
 1. Change your **monolith** jupyter notebook to a **modular** python codebase
-2. **Separate** your ml code, data transformations, and database connections into different modules
+2. **Separate** your ML code, data transformations, and database connections into different modules
 
 ### Decoupling Benefits
 1. New teammates can work on single parts without understanding the whole codebase
@@ -107,27 +89,52 @@ you may not be DRY
 ![[potatohead.jpg]]
 
 ---
+## Coupled or Decoupled
 ![[mousetrap.png]]
+
 ---
+
+## Coupled or Decoupled
+
 ![[s-l1600.jpg]]
 ---
+## Coupled or Decoupled
+
 ![[Macbook.jpeg]]
+
+
+---
+### Warning - Software Entropy
+%%*AKA: Technical Debt*, AKA: Code Rot%%
+%%Has anyone ever looked at a codebase and felt like they're looking at something like this?%%
+%%This is something that happens naturally as time progresses%%
+%%This might have been organized once upon a time but then one operator adds one wire, then the next adds two, then a new hire is asked to make changes and they see its messy. So they think that's the norm%%
+
+
+%%Design is not a one time thing%%
+%%You are not building a bridge, you are cultivating a garden%%
+%%Bridges are rigid, gardens are constantly changing%%
+<html>
+<img src="artifacts/wires.jpg"  width="600" height="300">
+</html>
+![Wires](artifacts/wires.jpg)
+
+%%[[TPP#2.-Software Entropy]]
+[[TPP#33.-Refactoring]]%%
+%%An ounce of prevention is worth a pound of cure%%
 
 ---
 ### What Now?
-1. Read
-	- see the *References* slide in this presentation for some helpful links
-	- this presentation is just the tip of the iceberg
-2. Explore
+1. Read (see *References*)
+	- This presentation is just the tip of the iceberg
+2. Explore (see *Recommended Tools*)
 	- Many libraries make effective program design easier
-	- see the *Recommended Tools* section for some of these
 3. Discuss
 	- Talk through with your team how you might improve your program design
 	- Establish a shared language
 
 ---
 ## Thank you for coming to my TED talk
-Invest in your coding skills because it will pay off big time.
 ### Concepts Covered
 1. Don't Repeat Yourself (DRY)
 2. Metaprogramming
@@ -148,6 +155,7 @@ https://github.boozallencsn.com/Bray-Patrick/dsms-ml-template
 #### Machine Learning
 - [hydra](https://hydra.cc/docs/intro/#introduction)
 	- Config and experimentation orchestration
+	- [Intro Article](https://medium.com/pytorch/hydra-a-fresh-look-at-configuration-for-machine-learning-projects-50583186b710)
 	- Lightweight alternative: [Python Fire](https://google.github.io/python-fire/guide/)
 - [mlflow](https://mlflow.org/docs/latest/what-is-mlflow.html)
 	- Experiment tracking and model versioning
@@ -192,60 +200,22 @@ https://github.boozallencsn.com/Bray-Patrick/dsms-ml-template
 
 ---
 
-### References  
-#### Books
+## References
+
+### Books
 - [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052)
 	- [Free Summary](https://github.com/HugoMatilla/The-Pragmatic-Programmer)
 - [Pragmatic Programmer for ML](https://www.taylorfrancis.com/books/mono/10.1201/9780429292835/pragmatic-programmer-machine-learning-marco-scutari-mauro-malvestio)
 - [Debugging: The 9 Indespensable Rules](https://www.amazon.com/Debugging-Indispensable-Software-Hardware-Problems/dp/0814474578)
 	- [Free Summary](https://inspirezone.tech/9-indispensable-rules-for-debugging-software-and-hardware/)
 - [Designing Machine Learning Systems](https://learning.oreilly.com/library/view/designing-machine-learning/9781098107956/)
-#### Articles 
+
+### Articles 
 - [SOLID Principles Python](https://realpython.com/solid-principles-python/)
 - [Write decoupled code — Good research code](https://goodresearch.dev/decoupled.html)
 - [Separation of Concerns: the Simple Way](https://dev.to/tamerlang/separation-of-concerns-the-simple-way-4jp2)
-#### YouTube
+
+### YouTube
 - [Scaling ML Adoption: Pragmatic Approach](https://www.youtube.com/watch?v=AUvAdkDvvto)  
 - [How Principled Coders Outperform the Competition](https://www.youtube.com/watch?v=q1qKv5TBaOA])
 
----
-# ARCHIVE
-
-
----
-## Why Should I Care?
-
-When Data Scientists **ignore** programming principles they are more likely to:
-1. make mistakes %%You need to know what your code does!%%
-2) miss deadlines  %%90 percent of your dev time will be spent doing non-DS stuff%%
-3) experience stress %%Diving back to a mistake you made months ago%%
-
-Data Scientists who **embrace** programming principles deliver projects with greater:
-1) maintainability %%You can make future changes faster%%
-2) reliability %%your code is more likely to do what you say it does. It will also be clear to other DS what your code does%%
-3) learnability %%If you get promoted, moved to another project, expand the team. Your code can be used by someone else!%%
-
-
----
-### Decoupling - Example
-![[Pasted image 20230622160221.png]]
-
-
-
----
-### Decoupling - Example
-![[Pasted image 20230622163110.png]]
-
----
-### Decoupling - Example
-
-![[highline.png]]
-
----
-### Decoupling - Story
-![[Pasted image 20230623212618.png]]
-
----
-### Software Entropy and Broken Windows
-%%This anecdote reflects my views on software, NOT LAW ENFORCEMENT%%
->One **broken window**, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Serious structural damage begins. the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.

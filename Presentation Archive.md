@@ -177,3 +177,47 @@ black?
 pre-commit?  
 isort?  
 sphinx
+
+
+
+---
+# ARCHIVE
+
+
+---
+## Why Should I Care?
+
+When Data Scientists **ignore** programming principles they are more likely to:
+1. make mistakes %%You need to know what your code does!%%
+2) miss deadlines  %%90 percent of your dev time will be spent doing non-DS stuff%%
+3) experience stress %%Diving back to a mistake you made months ago%%
+
+Data Scientists who **embrace** programming principles deliver projects with greater:
+1) maintainability %%You can make future changes faster%%
+2) reliability %%your code is more likely to do what you say it does. It will also be clear to other DS what your code does%%
+3) learnability %%If you get promoted, moved to another project, expand the team. Your code can be used by someone else!%%
+
+
+---
+### Decoupling - Example
+![[Pasted image 20230622160221.png]]
+
+
+
+---
+### Decoupling - Example
+![[Pasted image 20230622163110.png]]
+
+---
+### Decoupling - Example
+
+![[highline.png]]
+
+---
+### Decoupling - Story
+![[Pasted image 20230623212618.png]]
+
+---
+### Software Entropy and Broken Windows
+%%This anecdote reflects my views on software, NOT LAW ENFORCEMENT%%
+>One **broken window**, instills in the inhabitants of the building a sense of abandonment—a sense that the powers that be don't care about the building. So another window gets broken. People start littering. Serious structural damage begins. the building becomes damaged beyond the owner's desire to fix it, and the sense of abandonment becomes reality.

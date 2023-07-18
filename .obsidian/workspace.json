@@ -4,19 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "23aaf46fedb2a3e5",
+        "id": "28a36171d00cd7bc",
         "type": "tabs",
         "children": [
           {
-            "id": "474961e2e22f71ba",
+            "id": "5651bdb57e1e9e8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Expert Series Presentation.md",
+                "file": "20230719_Expert_Series.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6eed4ba779237080",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "371ff76e348410e8",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {}
             }
           }
         ]
@@ -93,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Expert Series Presentation.md",
+                "file": "20230719_Expert_Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Expert Series Presentation.md",
+                "file": "20230719_Expert_Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Expert Series Presentation.md"
+                "file": "20230719_Expert_Series.md"
               }
             }
           }
@@ -156,39 +170,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "474961e2e22f71ba",
+  "active": "5651bdb57e1e9e8f",
   "lastOpenFiles": [
-    "KANBAN.md",
-    "image2.jpg.md",
-    "KC46_Predictive_Maintenance_Performance_20230714.pdf",
-    "KC46_Predictive_Maintenance_Performance.pdf",
-    "Presentation Archive.md",
     "README.md",
-    "SOLID.md",
-    "Expert Series Presentation.md",
-    "artifacts/usb.png",
-    "artifacts/s-l1600.jpg",
-    "artifacts/potatohead.jpg",
-    "artifacts/mousetrap.png",
-    "artifacts/jameswebb.jpg",
-    "artifacts/Pasted.md",
-    "artifacts/Macbook.jpeg",
-    "2023-06-22.md",
-    "2023-05-29.md",
-    "artifacts/Pasted image 20230623224032.png",
-    "artifacts/Pasted image 20230623223952.png",
-    "artifacts/Pasted image 20230623212618.png",
-    "artifacts/highline.png",
-    "code/decoupling_example.py",
-    "code/README.md",
+    "sources/SOLID.md",
     "sources/TPP.md",
     "sources/Pragmatic_ML_Sample.pdf",
-    "sources",
-    "code/src/data/__pycache__/write.cpython-39.pyc",
-    "code/src/data/__pycache__/transform.cpython-39.pyc",
-    "code/src/data/__pycache__/__init__.cpython-39.pyc",
-    "code/src/data/__pycache__/read.cpython-39.pyc",
-    "code/src/ui/streamlit.py",
+    "Presentation Archive.md",
+    "KANBAN.md",
+    "Expert Series Presentation.pdf",
+    "20230719_Expert_Series.md",
+    "daily/2023-05-29.md",
+    "daily",
+    "daily/2023-06-22.md",
+    "export/Expert Series Presentation/artifacts/wires.jpg",
+    "export/Expert Series Presentation/artifacts/s-l1600.jpg",
+    "export/Expert Series Presentation/artifacts/potatohead.jpg",
+    "export/Expert Series Presentation/artifacts/Pasted image 20230622160221.png",
+    "export/Expert Series Presentation/artifacts/Pasted image 20230622163110.png",
+    "export/Expert Series Presentation/artifacts/Pasted image 20230623212618.png",
+    "export/Expert Series Presentation/artifacts/mousetrap.png",
+    "export/Expert Series Presentation/artifacts/Macbook.jpeg",
+    "export/Expert Series Presentation/artifacts/code_quality_graph.png.png",
+    "export/Expert Series Presentation/artifacts/highline.png",
+    "export/Expert Series Presentation/artifacts",
+    "export/Expert Series Presentation/plugin/chalkboard/_style.css",
+    "export/Expert Series Presentation/plugin/chalkboard/style.css",
+    "export/Expert Series Presentation/plugin/chalkboard/plugin (copy).js",
+    "export/Expert Series Presentation/plugin/chalkboard/plugin.js",
+    "export/Expert Series Presentation/plugin/chalkboard/README.md",
+    "export/Expert Series Presentation/plugin/chalkboard/img",
+    "export/Expert Series Presentation/plugin/chalkboard",
+    "export/Expert Series Presentation/plugin/chart/README.md",
+    "export/Expert Series Presentation/plugin/customcontrols/README.md",
+    "export/Expert Series Presentation/plugin/menu/CONTRIBUTING.md",
+    "export/Expert Series Presentation/plugin/menu/README.md",
+    "image2.jpg.md",
+    "artifacts/Pasted.md",
+    "code/README.md",
     "ChatGPT Version.md",
     "Untitled.md",
     "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
