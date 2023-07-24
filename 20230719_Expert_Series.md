@@ -1,5 +1,5 @@
 
-# Pragmatic Programming for Data Scientists
+## Pragmatic Programming for Data Scientists
 *Tips to deliver better analytics solutions faster*
 ![[book_cover.jpg]]
 
@@ -46,7 +46,7 @@ you may not be DRY
 ---
 ### DRY Example
 %%See Notebook%%
-
+[Notebook Link](https://github.com/PatrickBrayPersonal/spotify-playlists/blob/main/notebooks/dry_example.ipynb)
 
 ---
 ### Metaprogramming
@@ -65,6 +65,7 @@ you may not be DRY
 ---
 ### Metaprogramming Example
 %%See notebook%%
+[Notebook Link](https://github.com/PatrickBrayPersonal/spotify-playlists/blob/main/notebooks/dry_example.ipynb)
 
 
 ---
