@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5651bdb57e1e9e8f",
+            "id": "40f661be7ffce231",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "20230719_Expert_Series.md",
-                "mode": "source",
-                "source": false
+                "file": "Kanban.md"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20230719_Expert_Series.md",
+                "file": "Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20230719_Expert_Series.md",
+                "file": "Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20230719_Expert_Series.md"
+                "file": "Kanban.md"
               }
             }
           },
@@ -164,11 +162,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5651bdb57e1e9e8f",
+  "active": "40f661be7ffce231",
   "lastOpenFiles": [
-    "Presentation Archive.md",
-    "20230719_Expert_Series.md",
-    "20230719_Expert_Series.pdf",
+    "README.md",
+    "Kanban.md",
+    "Untitled.md",
+    "feedback/2023-07-25 Rochelle.md",
+    "presentations/20230719_Expert_Series.pdf",
+    "presentations/Presentation Archive.md",
+    "presentations",
+    "presentations/20230719_Expert_Series.md",
+    "feedback/2023-07-24 Eric.md",
+    "feedback",
     "export/20230719_Expert_Series/artifacts/s-l1600.jpg",
     "export/20230719_Expert_Series/artifacts/potatohead.jpg",
     "export/20230719_Expert_Series/artifacts/wires.jpg",
@@ -187,13 +192,10 @@
     "export/20230719_Expert_Series/plugin/chalkboard/img",
     "export/20230719_Expert_Series/plugin/chalkboard/plugin (copy).js",
     "export/20230719_Expert_Series/plugin/chalkboard",
-    "export/20230719_Expert_Series/plugin/chart/plugin.js",
     "export/20230719_Expert_Series/plugin/chart/README.md",
-    "export/20230719_Expert_Series/plugin/chart/chart.min.js",
     "export/20230719_Expert_Series/plugin/customcontrols/README.md",
     "export/20230719_Expert_Series/plugin/menu/README.md",
     "export/20230719_Expert_Series/plugin/menu/CONTRIBUTING.md",
-    "README.md",
     "sources/SOLID.md",
     "sources/TPP.md",
     "KANBAN.md",
@@ -207,9 +209,6 @@
     "image2.jpg.md",
     "artifacts/Pasted.md",
     "code/README.md",
-    "ChatGPT Version.md",
-    "Untitled.md",
-    "export/Expert_Series_Presentation/plugin/chalkboard/README.md",
-    "export/Expert_Series_Presentation/plugin/chart/README.md"
+    "ChatGPT Version.md"
   ]
 }
