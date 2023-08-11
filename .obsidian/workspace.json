@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6330c5358aba77f4",
@@ -151,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,6 +166,7 @@
   },
   "active": "f72ab4910b32c820",
   "lastOpenFiles": [
+    "daily/2023-07-27.md",
     "daily/2023-06-22.md",
     "daily/2023-08-11.md",
     "Kanban.md",
@@ -212,7 +211,6 @@
     "export/Expert Series Presentation/plugin/customcontrols/README.md",
     "export/Expert Series Presentation/plugin/menu/CONTRIBUTING.md",
     "export/Expert Series Presentation/plugin/menu/README.md",
-    "image2.jpg.md",
-    "artifacts/Pasted.md"
+    "image2.jpg.md"
   ]
 }
