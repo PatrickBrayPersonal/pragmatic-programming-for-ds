@@ -11,9 +11,11 @@
             "id": "40f661be7ffce231",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Kanban.md"
+                "file": "daily/2023-07-27.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -75,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6330c5358aba77f4",
@@ -91,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kanban.md",
+                "file": "daily/2023-07-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kanban.md",
+                "file": "daily/2023-07-27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kanban.md"
+                "file": "daily/2023-07-27.md"
               }
             }
           },
@@ -148,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,8 +168,10 @@
   },
   "active": "40f661be7ffce231",
   "lastOpenFiles": [
-    "README.md",
+    "daily/2023-06-22.md",
+    "daily/2023-07-27.md",
     "Kanban.md",
+    "README.md",
     "Untitled.md",
     "feedback/2023-07-25 Rochelle.md",
     "presentations/20230719_Expert_Series.pdf",
@@ -200,7 +206,6 @@
     "sources/TPP.md",
     "KANBAN.md",
     "daily/2023-05-29.md",
-    "daily/2023-06-22.md",
     "export/Expert Series Presentation/plugin/chalkboard/README.md",
     "export/Expert Series Presentation/plugin/chart/README.md",
     "export/Expert Series Presentation/plugin/customcontrols/README.md",
@@ -208,7 +213,6 @@
     "export/Expert Series Presentation/plugin/menu/README.md",
     "image2.jpg.md",
     "artifacts/Pasted.md",
-    "code/README.md",
-    "ChatGPT Version.md"
+    "code/README.md"
   ]
 }
