@@ -43,6 +43,4 @@
 
 
 ### Names
-- Pragmatic Programming for DS
 - Pragmatic Data Science
-	- The Pragmatic Data Scientist
